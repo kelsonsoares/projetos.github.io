@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tabela com campo de slide</title>
+    <!-- Link para Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Estilos personalizados -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tabela com campo de slide</h1>
+
+      <!-- Tabela -->
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>João</td>
+            <td>joao@example.com</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Maria</td>
+            <td>maria@example.com</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Pedro</td>
+            <td>pedro@example.com</td>
+            <td>27</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+
+      <!-- Campo de slide -->
+      <div class="slidecontainer">
+        <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+      </div>
+    </div>
+
+    <!-- Link para Bootstrap JS (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
